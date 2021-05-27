@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik walut</title>
+    <link href="kantor.css" rel="stylesheet">
+    <script defer src="kantor.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Mono:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <span class="container">
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="fieldset__Legend">Przelicznik walut</legend>
+                <p class="fieldset__label">
+                    <label>
+                        <p>
+                            <span class="input_text">Wpisz kwotę w PLN<span class="input_text-span">* </span>:</span><input class="fieldset__PLN" name="PLN"
+                                type="number" min="0" autofocus required>
+                        </p>
+                        <p>
+                            <span class="input_text">Wybierz walutę<span class="input_text-span">* </span>:</span><select class="Fieldset__select">
+                                <option value="CHF">CHF</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="SEK">SEK</option>
+                            </select>
+                        </p>
+                        <p class="additionalInfo">*Pola zaznaczone gwiazdką są obowiązkowe</p>
+                        <button class="fieldset__button">Przelicz!</button>
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+    </span>
+    <p class="result">Otrzymasz: <strong class="js-result"></strong></p>
+</body>
+
+</html>

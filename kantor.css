@@ -1,0 +1,98 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after,  ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(239, 249, 250);
+    font-family: 'Baloo Chettan 2';
+    font-style: italic;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0;
+    padding: 100px 200px;
+    font-size: 20px;
+}
+
+.container {
+    
+}
+
+.form__fieldset {
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.fieldset__Legend {
+    border: 1px solid #222;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-left: 10%;
+    background-color: rgb(112, 186, 189);
+}
+
+.fieldset__label {
+    text-align: center;
+}
+
+.Fieldset__select {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.Fieldset__select:hover {
+    background-color: rgb(224, 231, 231);
+}
+
+.fieldset__PLN {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.input_text {
+    display: inline-block;
+    max-width: 200px;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.fieldset__button {
+    display: inline-block;
+    max-width: 100%;
+    width: 600px;
+    margin: 2px 5%;
+    padding: 8px;
+    font-family: 'Baloo Chettan 2';
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgb(112, 186, 189);
+    border-radius: 15px;
+}
+
+.fieldset__button:hover {
+    background-color: rgb(124, 196, 199);
+}
+
+.fieldset__button:active {
+    background-color: rgb(119, 208, 209);
+    border-radius: 15px;
+}
+
+.result {
+    font-size: 25px;
+    text-align: center;
+}
+
+.input_text-span {
+    font-size: 20px bold;
+    color:rgb(209, 66, 9);
+}
+
+.additionalInfo {
+    font-size: 15px;
+    color:rgb(209, 66, 9);
+    margin: 2px 5%;
+}
