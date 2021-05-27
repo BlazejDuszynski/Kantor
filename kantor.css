@@ -7,7 +7,8 @@
 }
 
 .body {
-    background-color: rgb(239, 249, 250);
+    background-image: url("https://images.unsplash.com/photo-1565372594646-7e38ab4547c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover; 
     font-family: 'Baloo Chettan 2';
     font-style: italic;
     max-width: 800px;
@@ -15,10 +16,6 @@
     margin: 0;
     padding: 100px 200px;
     font-size: 20px;
-}
-
-.container {
-    
 }
 
 .form__fieldset {
